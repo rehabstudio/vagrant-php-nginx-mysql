@@ -1,0 +1,105 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    nodes/php (0.8.0)
+      puppetlabs/apt (> 0.0.0)
+      puppetlabs/stdlib (> 0.0.0)
+    puppetlabs/apt (1.4.1)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/concat (1.1.0-rc1)
+      puppetlabs/stdlib (>= 3.0.0)
+    puppetlabs/git (0.0.3)
+    puppetlabs/stdlib (4.1.0)
+
+GIT
+  remote: git://github.com/alup/puppet-rbenv.git
+  ref: master
+  sha: f06c3aee6831237201b0f1975978a1c7ddad9497
+  specs:
+    rbenv (1.2.0)
+
+GIT
+  remote: git://github.com/camptocamp/puppet-archive.git
+  ref: master
+  sha: f75d45ec5014f4a1ad814fcf18746bc9f18eddbc
+  specs:
+    archive (0.0.1)
+
+GIT
+  remote: git://github.com/jfryman/puppet-nginx.git
+  ref: master
+  sha: 7cf6dac978fe08e061ed9201284c7a5bf22af2a3
+  specs:
+    nginx (0.0.7)
+      puppetlabs/apt (>= 1.0.0)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 0.1.6)
+
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-apt.git
+  ref: master
+  sha: fd3e07e58fadc6efb25d524168575c39de0c5590
+  specs:
+    apt (1.4.1)
+      puppetlabs/stdlib (>= 2.2.1)
+
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-concat.git
+  ref: master
+  sha: 24906d1bca3f8a1b93b24d71c0e081eda57afc9e
+  specs:
+    concat (1.1.0-rc1)
+      puppetlabs/stdlib (>= 4.0.0)
+
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-mysql.git
+  ref: master
+  sha: 7884ff744e0642a096031562a5835ffab2f335bb
+  specs:
+    mysql (2.2.1)
+      puppetlabs/stdlib (>= 3.2.0)
+
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-nodejs.git
+  ref: master
+  sha: 0b0dfdd6ab4185b14b0b2d54da1f0402a6a8a638
+  specs:
+    nodejs (0.4.0)
+      puppetlabs/apt (>= 0.0.3)
+      puppetlabs/stdlib (>= 2.0.0)
+
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-stdlib.git
+  ref: master
+  sha: ab981422a67636441f1bfebaaade36aa690f1f25
+  specs:
+    stdlib (4.1.0)
+
+GIT
+  remote: git://github.com/rehabstudio/puppet-capistrano.git
+  ref: master
+  sha: f6b225179d3070730d61eba5d42b2a8e206010a9
+  specs:
+    capistrano (0.0.1)
+
+GIT
+  remote: git://github.com/tPl0ch/puppet-composer.git
+  ref: master
+  sha: 1bf5636c972f84e82566f6cd9945e64b89e36e5a
+  specs:
+    composer (1.2.1)
+      puppetlabs/git (>= 0.0.2)
+
+DEPENDENCIES
+  apt (>= 0)
+  archive (>= 0)
+  capistrano (>= 0)
+  composer (>= 0)
+  concat (>= 0)
+  mysql (>= 0)
+  nginx (>= 0)
+  nodejs (>= 0)
+  nodes/php (>= 0)
+  rbenv (>= 0)
+  stdlib (>= 0)
+
